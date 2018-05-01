@@ -8,7 +8,46 @@ body {
   background-color: #C1B5AD;
 }
 
+#navbar {
+  height: 10em; background-color: rgb(214, 248, 255);
+}
 #map {
+  height: 500px;
+  width: 500px; 
+
+}
+
+#container{
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column; 
+  background-color: rgb(205, 255, 151);
+}
+
+#bottomBox {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(224, 151, 255);
+}
+
+#sideBar{
+  display: flex;
+  height: 50%;
+  flex-direction: columns;
+  background-color: rgb(26, 229, 205);
+}
+
+#selectBox{
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: columns;
+  background-color: rgb(139, 2, 2);
+}
+
+#itinerary{
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: columns;
+  background-color: rgb(249, 255, 74);
 }
